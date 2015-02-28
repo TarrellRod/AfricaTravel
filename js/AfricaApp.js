@@ -5,5 +5,8 @@ var app = angular.module("AfricaApp", ['ngRoute']).config(function($routeProvide
         }).when('/bus', {
             templateUrl: 'views/bus.html',
             controller: 'Controller'
+        }).when('/taxi',{
+        	templateUrl: 'views/taxi.html',
+        	controller: 'Controller'
         });
     });
